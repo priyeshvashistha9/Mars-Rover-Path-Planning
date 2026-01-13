@@ -1,4 +1,4 @@
-# Multi-Heuristic A* for Mars Rover Navigation
+# Multi-Heuristic A* for Mars Rover Navigation 🚀
 
 An ablation study evaluating the role of heuristic diversity in Multi-Heuristic A* (MHA*) within cost-aware, synthetic Mars-like terrain maps.
 
@@ -6,12 +6,12 @@ An ablation study evaluating the role of heuristic diversity in Multi-Heuristic 
 This project deconstructs the MHA* algorithm to determine if its performance gains stem from its multi-queue architecture or the diversity of its heuristics. 
 
 ### Key Features
-- [cite_start]**Planners Implemented:** Weighted A* (WA*), MHA* with Diverse Heuristics, and MHA* with Homogeneous Heuristics[cite: 415, 437].
-- [cite_start]**Heuristics Used:** Euclidean (Anchor), Scaled Manhattan, and Aggressive Euclidean[cite: 504, 505, 506].
-- [cite_start]**Custom Terrain Model:** Synthetic 100x100 grid maps with varying traversal costs for Bedrock, Gravel, and Sand[cite: 466, 467, 468, 475].
+- **Planners Implemented:** Weighted A* (WA*), MHA* with Diverse Heuristics, and MHA* with Homogeneous Heuristics.
+- **Heuristics Used:** Euclidean (Anchor), Scaled Manhattan, and Aggressive Euclidean.
+- **Custom Terrain Model:** Synthetic 100x100 grid maps with varying traversal costs for Bedrock, Gravel, and Sand.
 
-## Results
-[cite_start]Experiments across 500 scenarios show that MHA* with diverse heuristics achieves orders-of-magnitude reductions in node expansions and planning time compared to WA* in complex terrains[cite: 416].
+## Results 📊
+Experiments across 500 scenarios show that MHA* with diverse heuristics achieves orders-of-magnitude reductions in node expansions and planning time compared to WA* in complex terrains.
 
 ## Requirements
 - Python 3.x
