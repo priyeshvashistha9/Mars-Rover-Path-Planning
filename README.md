@@ -8,7 +8,7 @@ This project deconstructs the MHA* algorithm to determine if its performance gai
 ### Key Features
 - **Planners Implemented:** Weighted A* (WA*), MHA* with Diverse Heuristics, and MHA* with Homogeneous Heuristics.
 - **Heuristics Used:** Euclidean (Anchor), Scaled Manhattan, and Aggressive Euclidean.
-- **Custom Terrain Model:** Synthetic 100x100 grid maps with varying traversal costs for Bedrock, Gravel, and Sand.
+- **Custom Terrain Model:** Synthetic 100x100 grid maps with varying traversal costs for Bedrock (1), Gravel (5), and Sand (10).
 
 ## Results 📊
 Experiments across 500 scenarios show that MHA* with diverse heuristics achieves orders-of-magnitude reductions in node expansions and planning time compared to WA* in complex terrains.
